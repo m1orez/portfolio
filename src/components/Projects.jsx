@@ -1,12 +1,21 @@
 const projects = [
   {
     title: "Drinking game",
-    description: "A simple drinking game with cards.",
+    description: "A drinking game with task cards I made to play with friends.",
     image: "/portfolio/img/drinking-game.png",
     tech: ["HTML", "CSS", "JavaScript"],
     demo: "https://086212.stu.sd-lab.nl/blackout/",
     code: "https://github.com/m1orez/blackout/  "
   },
+  {
+    title: "Portfolio website.",
+    description: "A simple portfolio website made fully with React and Tailwind CSS.",
+    image: "/portfolio/img/portfolio.png",
+    tech: ["React", "Tailwind CSS"],
+    demo: "https://086212.stu.sd-lab.nl/portfolio/",
+    code: "https://m1orez.github.io/portfolio/",
+  },
+
 ];
 const Projects = () => {
   return (
