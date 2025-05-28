@@ -1,21 +1,35 @@
 const projects = [
   {
+    title: "Weather App",
+    description: "A weather application that provides current weather data and forecasts using the OpenWeatherMap API.",
+    image: "/portfolio/img/weather-watch.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    demo: "https://086212.stu.sd-lab.nl/WeatherWatch/",
+    code: "https://github.com/m1orez/weather-app"
+  },{
+    title: "Portfolio",
+    description: "This portfolio website showcases my skills and projects. It is built with React and Tailwind CSS.",
+    image: "/portfolio/img/portfolio.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    demo: "https://086212.stu.sd-lab.nl/portfolio/",
+    code: "https://m1orez.github.io/portfolio/",
+  },
+  {
     title: "Drinking game",
-    description: "A drinking game with task cards I made to play with friends.",
+    description: "A simple drinking game with cards, I made this in my free time to play with friends.",
     image: "/portfolio/img/drinking-game.png",
     tech: ["HTML", "CSS", "JavaScript"],
     demo: "https://086212.stu.sd-lab.nl/blackout/",
     code: "https://github.com/m1orez/blackout/  "
   },
   {
-    title: "Portfolio website.",
-    description: "A simple portfolio website made fully with React and Tailwind CSS.",
-    image: "/portfolio/img/portfolio.png",
-    tech: ["React", "Tailwind CSS"],
-    demo: "https://086212.stu.sd-lab.nl/portfolio/",
-    code: "https://m1orez.github.io/portfolio/",
-  },
-
+    title: "Tindog",
+    description: "A Tinder-like website for dogs. I made this to practice Bootstrap.",
+    image: "/portfolio/img/tindog.png",
+    tech: ["HTML", "CSS", "Bootstrap"],
+    demo: "https://086212.stu.sd-lab.nl/tindog/index.html",
+    code: "https://github.com/m1orez/tindog"
+  }
 ];
 const Projects = () => {
   return (
